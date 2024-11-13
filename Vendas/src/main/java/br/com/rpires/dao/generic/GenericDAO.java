@@ -13,8 +13,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author rodrigo.pires
- *
  * Classe genérica que implementa interface genérica com os métodos de CRUD
  */
 public abstract class GenericDAO<T extends Persistente, E extends Serializable> implements IGenericDAO<T,E> {

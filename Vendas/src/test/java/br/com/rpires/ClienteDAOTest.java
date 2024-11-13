@@ -16,10 +16,6 @@ import java.util.Collection;
 
 import static org.junit.Assert.assertTrue;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ClienteDAOTest {
 	
 	private IClienteDAO clienteDao;

@@ -7,10 +7,6 @@ import main.java.br.com.rpires.dao.IClienteDAO;
 import main.java.br.com.rpires.domain.Cliente;
 import main.java.br.com.rpires.services.generic.GenericService;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ClienteService extends GenericService<Cliente, Long> implements IClienteService {
 	
 	//private IClienteDAO clienteDAO;
